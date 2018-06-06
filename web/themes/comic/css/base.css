@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,500,600,700,800');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900'); */
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
