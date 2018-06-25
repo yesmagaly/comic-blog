@@ -1,0 +1,23 @@
+uuid: c56a7769-0cc3-414d-bea3-5f24ccf678f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_icon
+    - paragraphs.paragraphs_type.list
+  module:
+    - options
+id: paragraph.list.field_icon
+field_name: field_icon
+entity_type: paragraph
+bundle: list
+label: 'Icon type'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: check
+default_value_callback: ''
+settings: {  }
+field_type: list_string

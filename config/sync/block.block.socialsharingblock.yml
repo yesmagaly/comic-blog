@@ -1,0 +1,20 @@
+uuid: cf8abe36-1abe-41d0-af8d-841ab670aff2
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media
+  theme:
+    - comic
+id: socialsharingblock
+theme: comic
+region: content_bottom
+weight: -6
+provider: null
+plugin: social_sharing_block
+settings:
+  id: social_sharing_block
+  label: 'Social Sharing block'
+  provider: social_media
+  label_display: '0'
+visibility: {  }

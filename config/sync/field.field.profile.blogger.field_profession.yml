@@ -1,0 +1,19 @@
+uuid: 4d526ca4-ead1-492d-900c-21a07d471d43
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_profession
+    - profile.type.blogger
+id: profile.blogger.field_profession
+field_name: field_profession
+entity_type: profile
+bundle: blogger
+label: Profession
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

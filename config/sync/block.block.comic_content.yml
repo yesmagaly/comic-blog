@@ -1,0 +1,22 @@
+uuid: 37888210-0465-450a-8115-ac029c3558bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - comic
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: comic_content
+theme: comic
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

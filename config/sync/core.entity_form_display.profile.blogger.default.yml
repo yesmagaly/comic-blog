@@ -1,0 +1,69 @@
+uuid: 0983f903-f5b6-495a-b580-cd1995eb2ef2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.profile.blogger.field_full_name
+    - field.field.profile.blogger.field_photo
+    - field.field.profile.blogger.field_profession
+    - field.field.profile.blogger.field_signature
+    - field.field.profile.blogger.field_social_media
+    - field.field.profile.blogger.field_summary
+    - image.style.thumbnail
+    - profile.type.blogger
+  module:
+    - image
+    - social_media
+id: profile.blogger.default
+targetEntityType: profile
+bundle: blogger
+mode: default
+content:
+  field_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_photo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_profession:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_signature:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_social_media:
+    weight: 5
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    type: social_media_default
+    region: content
+  field_summary:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden: {  }

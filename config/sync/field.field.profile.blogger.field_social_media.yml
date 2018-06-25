@@ -1,0 +1,25 @@
+uuid: ead12143-fe55-4d72-b1a0-98d990d28234
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_social_media
+    - profile.type.blogger
+  module:
+    - social_media
+id: profile.blogger.field_social_media
+field_name: field_social_media
+entity_type: profile
+bundle: blogger
+label: 'Social media'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: social_media

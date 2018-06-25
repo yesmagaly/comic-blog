@@ -1,0 +1,22 @@
+uuid: cb5ac50a-bc9e-43ca-9e9a-6d72bb2ff01b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - comic
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: comic_local_tasks
+theme: comic
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

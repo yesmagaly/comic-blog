@@ -1,0 +1,28 @@
+uuid: 0728906a-1d24-41f5-bafe-30887613f092
+langcode: en
+status: true
+dependencies:
+  module:
+    - comic_article
+    - node
+  theme:
+    - comic
+id: tagsblock
+theme: comic
+region: content_bottom
+weight: -7
+provider: null
+plugin: tags_block
+settings:
+  id: tags_block
+  label: 'Tags block'
+  provider: comic_article
+  label_display: '0'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

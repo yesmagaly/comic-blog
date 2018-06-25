@@ -1,0 +1,22 @@
+uuid: c8c3a7bf-06c6-4ae7-be37-66839de6da42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.list.field_icon
+    - field.field.paragraph.list.field_items
+    - paragraphs.paragraphs_type.list
+id: paragraph.list.default
+targetEntityType: paragraph
+bundle: list
+mode: default
+content:
+  field_items:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  field_icon: true

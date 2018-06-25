@@ -1,0 +1,19 @@
+uuid: 30d8cc9f-49c4-4e3d-93cd-2c8328d14dbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.profile.field_summary
+    - profile.type.blogger
+id: profile.blogger.field_summary
+field_name: field_summary
+entity_type: profile
+bundle: blogger
+label: Summary
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

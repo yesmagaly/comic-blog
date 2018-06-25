@@ -1,0 +1,31 @@
+uuid: b10b779d-f002-4185-aa30-6c0699f1b420
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.list.field_icon
+    - field.field.paragraph.list.field_items
+    - paragraphs.paragraphs_type.list
+id: paragraph.list.default
+targetEntityType: paragraph
+bundle: list
+mode: default
+content:
+  field_icon:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_items:
+    weight: 1
+    settings:
+      rows: 2
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

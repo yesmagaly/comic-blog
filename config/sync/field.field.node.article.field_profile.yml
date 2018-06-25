@@ -1,0 +1,28 @@
+uuid: e9cd748e-0a7c-40a4-bddc-88d92ab87f01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile
+    - node.type.article
+    - profile.type.blogger
+id: node.article.field_profile
+field_name: field_profile
+entity_type: node
+bundle: article
+label: Profile
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:profile'
+  handler_settings:
+    target_bundles:
+      blogger: blogger
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

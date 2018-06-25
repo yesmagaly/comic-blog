@@ -1,0 +1,20 @@
+uuid: 210379c3-c841-4d88-b907-372e2893ef5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - comic
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: comic_local_actions
+theme: comic
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

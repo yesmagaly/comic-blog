@@ -1,0 +1,22 @@
+uuid: 7c3aaf9a-d952-42bc-8a4d-0555b2710fbb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: blog_alias_pattern
+label: 'Blog alias pattern'
+type: 'canonical_entities:node'
+pattern: '/blog/[node:title]'
+selection_criteria:
+  56eff584-f1d0-419f-ab15-303aea67b194:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 56eff584-f1d0-419f-ab15-303aea67b194
+selection_logic: and
+weight: -5
+relationships: {  }

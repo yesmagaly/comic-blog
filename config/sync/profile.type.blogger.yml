@@ -1,0 +1,14 @@
+uuid: aa3a660c-fce1-4ae4-9e4f-93d066aadfb6
+langcode: en
+status: true
+dependencies: {  }
+id: blogger
+label: Blogger
+registration: false
+multiple: false
+roles:
+  authenticated: authenticated
+  administrator: '0'
+weight: 0
+use_revisions: false
+description: ''

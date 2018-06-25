@@ -1,0 +1,14 @@
+uuid: 8592a9e6-4daf-4a23-966d-acd393bdd7e1
+langcode: en
+status: true
+dependencies: {  }
+name: extra_large
+label: 'Extra large (967x420)'
+effects:
+  eca0b3db-fe42-4bd7-9e7a-b65edc1ebdd5:
+    uuid: eca0b3db-fe42-4bd7-9e7a-b65edc1ebdd5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 967
+      height: 420
