@@ -1,0 +1,5 @@
+name: 'Comic Article'
+type: module
+description: 'Comic article settings.'
+core: 8.x
+package: 'Comic'

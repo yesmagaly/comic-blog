@@ -1,0 +1,6 @@
+services:
+  loencontraste_core.twig_extension:
+    arguments: ['@renderer']
+    class: Drupal\comic_core\TwigExtension\YoutubeUrl
+    tags:
+      - { name: twig.extension }

@@ -1,0 +1,38 @@
+<?php
+
+/**
+ * @file
+ * Contains comic_article.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function comic_article_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the comic_article module.
+    case 'help.page.comic_article':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Comic article settings.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_help().
+ */
+function comic_article_theme() {
+  return [
+    'tags__block' => [
+      'template' => 'block--tags',
+      'variables' => [
+        'content' => []
+      ]
+    ]
+  ];
+}
