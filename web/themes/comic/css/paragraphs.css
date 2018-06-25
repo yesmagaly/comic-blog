@@ -1,0 +1,50 @@
+/*** Text - Paragraph type ***/
+.paragraph--type--text {
+  margin: .3rem 0;
+}
+.paragraph--type--text blockquote {
+  color: var(--green);
+  font-family: var(--principal-font-family);
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  width: 70%;
+  margin: 2rem auto;
+  display: flex;
+}
+
+.paragraph--type--text blockquote::before {
+  content: '“';
+  font-size: 3rem;
+}
+
+.paragraph--type--text blockquote::after {
+  content: '”';
+  font-size: 3rem;
+}
+
+.paragraph--type--text blockquote p {
+  margin: 0;
+}
+
+/*** List - Paragraph type ***/
+
+.paragraph--type--list {
+  margin: 1rem 0;
+}
+
+.paragraph--type--list .list {
+  list-style: none;
+  padding: 0;
+}
+
+.paragraph--type--list .list__item {
+  line-height: 1.8;
+}
+
+.paragraph--type--list .list__item svg {
+  color: var(--green);
+  margin-right: .5rem;
+  font-size: .7rem;
+}

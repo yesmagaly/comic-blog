@@ -1,0 +1,8 @@
+.region__content_bottom {
+  border-top: 1px dashed var(--black-300);
+  border-bottom: 1px dashed var(--black-300);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}

@@ -1,0 +1,28 @@
+.tags {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.tags a {
+  color: var(--black-500);
+  text-decoration: none;
+}
+
+.tags a::after {
+  content: ',';
+}
+
+.tags .tags__item:last-child a::after {
+  content: '';
+}
+
+.tags svg {
+  color: var(--green);
+  font-size: .8rem;
+  margin-right: .75rem;
+  margin-top: 3px;
+}
+
+.tags__item {
+  margin-right: .2rem;
+}

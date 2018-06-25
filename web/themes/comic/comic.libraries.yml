@@ -3,3 +3,13 @@ base:
   css:
     component:
       css/base.css: {}
+
+  dependencies:
+    - comic/font-awesome
+
+font-awesome:
+  js:
+    https://use.fontawesome.com/releases/v5.0.6/js/all.js:
+      type: external
+      attributes:
+        defer: true
