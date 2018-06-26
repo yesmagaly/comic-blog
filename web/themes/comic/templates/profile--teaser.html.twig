@@ -1,0 +1,44 @@
+{#
+/**
+ * @file
+ *
+ * Default theme implementation for profiles.
+ *
+ * Available variables:
+ * - content: Items for the content of the profile.
+ *   Use 'content' to print them all, or print a subset such as
+ *   'content.title'. Use the following code to exclude the
+ *   printing of a given child element:
+ *   @code
+ *   {{ content|without('title') }}
+ *   @endcode
+ * - attributes: HTML attributes for the wrapper.
+ * - profile: The profile object.
+ * - url: The profile URL, if available.
+ *
+ * @ingroup themeable
+ */
+#}
+<div {{ attributes.addClass('profile') }}>
+  <div class="profile__wrapper">
+    <div class="profile__photo">
+      {{ content.field_photo }}
+    </div>
+    <div class="profile__content">
+      <div class="profile__details">
+        <div class="profile__detail">
+          <div class="profile__profession">
+            {{ content.field_profession }}
+          </div>
+          <div class="profile__name">
+            {{ content.field_full_name }}
+          </div>
+        </div>
+        <div class="profile__social-media">
+          {{ content.field_social_media }}
+        </div>
+      </div>
+      {{ content|without('field_photo')|without('field_profession')|without('field_full_name')|without('field_social_media') }}
+    </div>
+  </div>
+</div>

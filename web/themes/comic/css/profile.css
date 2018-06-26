@@ -1,0 +1,52 @@
+.profile {
+  margin: 2rem 0;
+}
+
+.profile__wrapper {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.profile__photo {
+  margin-right: 1.5rem;
+}
+
+.profile__photo img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.profile__content {
+
+}
+
+.profile__details {
+  display: flex;
+}
+
+.profile__detail {
+  margin-right: 4rem;
+}
+.profile__profession div {
+  color: var(--green);
+  font-family: var(--principal-font-family);
+  font-size: .8rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.profile__name {
+  color: var(--black-600);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: .4rem 0 1rem 0;
+}
+
+.profile__social-media {
+  position: relative;
+  top: -7px;
+}
