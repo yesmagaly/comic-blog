@@ -20,6 +20,7 @@ regions:
   breadcrumb: Breadcrumbz
   content: Content
   content_bottom: 'Content bottom'
+  comments: 'Comments'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   featured_bottom_first: 'Featured bottom first'
