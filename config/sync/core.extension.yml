@@ -8,6 +8,7 @@ module:
   color: 0
   comic_article: 0
   comic_core: 0
+  comic_profile: 0
   comment: 0
   config: 0
   contact: 0
