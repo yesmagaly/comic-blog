@@ -10,7 +10,7 @@ dependencies:
 id: tagsblock
 theme: comic
 region: content_bottom
-weight: -7
+weight: -8
 provider: null
 plugin: tags_block
 settings:

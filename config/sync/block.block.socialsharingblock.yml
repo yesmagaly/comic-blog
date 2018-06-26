@@ -9,7 +9,7 @@ dependencies:
 id: socialsharingblock
 theme: comic
 region: content_bottom
-weight: -6
+weight: -7
 provider: null
 plugin: social_sharing_block
 settings:

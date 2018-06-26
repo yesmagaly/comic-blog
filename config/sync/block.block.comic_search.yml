@@ -1,6 +1,6 @@
 uuid: 8db1b197-335b-4119-8e5c-f41f018cd10b
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - search
@@ -11,7 +11,7 @@ _core:
 id: comic_search
 theme: comic
 region: sidebar_first
-weight: -1
+weight: -9
 provider: null
 plugin: search_form_block
 settings:

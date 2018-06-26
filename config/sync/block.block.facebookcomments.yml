@@ -1,0 +1,24 @@
+uuid: 773551fc-ad8d-4ede-be05-e5325dd09a24
+langcode: en
+status: true
+dependencies:
+  module:
+    - facebook_comments
+  theme:
+    - comic
+id: facebookcomments
+theme: comic
+region: comments
+weight: -8
+provider: null
+plugin: facebook_comments
+settings:
+  id: facebook_comments
+  label: 'Post comments'
+  provider: facebook_comments
+  label_display: visible
+  facebook_comments_style: dark
+  facebook_comments_width: '208'
+  facebook_comments_width_fluid: 1
+  facebook_comments_amount: '5'
+visibility: {  }
