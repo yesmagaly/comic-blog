@@ -1,4 +1,4 @@
-uuid: d587f66d-0878-4123-80aa-146290144697
+uuid: b3b505d6-b827-40d5-86fd-2aea90ea352c
 langcode: en
 status: true
 dependencies:
@@ -7,15 +7,15 @@ dependencies:
     - system
   theme:
     - comic
-id: tagsblock
+id: latestblogsblock
 theme: comic
 region: sidebar
-weight: -7
+weight: -8
 provider: null
-plugin: tags_block
+plugin: latest_blogs_block
 settings:
-  id: tags_block
-  label: Categories
+  id: latest_blogs_block
+  label: 'Recent stories'
   provider: comic_article
   label_display: visible
 visibility:

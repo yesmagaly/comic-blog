@@ -1,22 +1,22 @@
-uuid: d587f66d-0878-4123-80aa-146290144697
+uuid: e1483321-7c5c-4464-a759-07513386b2ba
 langcode: en
 status: true
 dependencies:
   module:
-    - comic_article
+    - comic_profile
     - system
   theme:
     - comic
-id: tagsblock
+id: profileblock
 theme: comic
 region: sidebar
-weight: -7
+weight: -9
 provider: null
-plugin: tags_block
+plugin: profile_block
 settings:
-  id: tags_block
-  label: Categories
-  provider: comic_article
+  id: profile_block
+  label: 'About author'
+  provider: comic_profile
   label_display: visible
 visibility:
   request_path:
