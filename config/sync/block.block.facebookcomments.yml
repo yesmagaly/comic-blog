@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - ctools
     - facebook_comments
   theme:
     - comic
@@ -21,4 +22,11 @@ settings:
   facebook_comments_width: '208'
   facebook_comments_width_fluid: 1
   facebook_comments_amount: '5'
-visibility: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
