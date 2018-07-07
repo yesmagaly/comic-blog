@@ -57,3 +57,33 @@
   align-items: center;
   margin: 2rem 0;
 }
+
+/* Styles for article block */
+.latest-blog {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.latest-blog__img {
+  margin-right: 1rem;
+}
+
+.latest-blog__img img {
+  border-radius: 5px;
+}
+
+.latest-blog__date {
+  font-size: .8rem;
+}
+
+.latest-blog__title {
+  line-height: .8;
+  margin-top: .2rem;
+}
+
+.latest-blog__title a {
+  text-decoration: none;
+  font-size: .95rem;
+  color: var(--black-700);
+  margin: 0;
+}
