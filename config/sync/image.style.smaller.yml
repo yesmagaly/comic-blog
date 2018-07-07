@@ -1,0 +1,14 @@
+uuid: a81fa923-a9a2-4492-9f3d-ea26f69ddbbc
+langcode: en
+status: true
+dependencies: {  }
+name: smaller
+label: 'Smaller (80x75)'
+effects:
+  83a8a349-3083-4f4a-9260-beea121e3c51:
+    uuid: 83a8a349-3083-4f4a-9260-beea121e3c51
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 80
+      height: 75

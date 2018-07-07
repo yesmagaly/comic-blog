@@ -1,0 +1,14 @@
+uuid: 07603811-2eba-4207-b7cd-c3191f3688e8
+langcode: en
+status: true
+dependencies: {  }
+name: main_image_article
+label: 'Main Image article (770X330)'
+effects:
+  8322e306-676b-4fcd-8301-18a8c3a6beb4:
+    uuid: 8322e306-676b-4fcd-8301-18a8c3a6beb4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 770
+      height: 330
