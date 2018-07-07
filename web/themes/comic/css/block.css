@@ -1,0 +1,28 @@
+.block {
+  padding: 0 1.5rem 2rem 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.block .block {
+  margin-bottom: 0;
+}
+
+
+.block--profile-block,
+.block--latest-blogs-block, .block--tags-block {
+  background-color: var(--black-200);
+}
+
+.block--social-sharing-block {
+  padding-bottom: 0;
+}
+
+.block__title {
+  color: white;
+  text-transform: uppercase;
+  font-size: .85rem;
+  background-color: var(--black-800);
+  padding: 19px 0;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
