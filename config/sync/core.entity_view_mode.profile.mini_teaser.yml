@@ -1,0 +1,10 @@
+uuid: 0eda3b5e-ea47-4d47-b803-8de937029ee0
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.mini_teaser
+label: 'Mini teaser'
+targetEntityType: profile
+cache: true

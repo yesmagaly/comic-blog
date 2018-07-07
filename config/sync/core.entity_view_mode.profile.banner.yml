@@ -1,0 +1,10 @@
+uuid: 972f8765-317a-4ae6-82e2-a75f84fc31eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - profile
+id: profile.banner
+label: Banner
+targetEntityType: profile
+cache: true
