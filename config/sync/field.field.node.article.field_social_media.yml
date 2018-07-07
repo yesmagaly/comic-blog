@@ -1,0 +1,25 @@
+uuid: b0503ee7-1a1f-45c2-8c59-deaed68efbe3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_social_media
+    - node.type.article
+  module:
+    - social_media
+id: node.article.field_social_media
+field_name: field_social_media
+entity_type: node
+bundle: article
+label: 'Social media'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: social_media
