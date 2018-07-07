@@ -61,21 +61,15 @@
   <main role="main" class="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
-    <div class="layout-content">
+    <div class="layout-content column">
       {{ page.content }}
       {{ page.content_bottom }}
       {{ page.comments }}
     </div>{# /.layout-content #}
 
-    {% if page.sidebar_first %}
-      <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar_first }}
-      </aside>
-    {% endif %}
-
-    {% if page.sidebar_second %}
-      <aside class="layout-sidebar-second" role="complementary">
-        {{ page.sidebar_second }}
+    {% if page.sidebar %}
+      <aside class="layout-sidebar column" role="complementary">
+        {{ page.sidebar }}
       </aside>
     {% endif %}
 
