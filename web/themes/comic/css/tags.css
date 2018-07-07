@@ -1,0 +1,25 @@
+.comic-tags {
+  border: 1px solid var(--black-200);
+  border-radius: 28px;
+  background: white;
+  margin: .5rem;
+}
+
+.comic-tags:hover {
+  background: var(--green);
+}
+
+.comic-tags__name {
+  margin: 0;
+  font-size: .85rem;
+  padding: 1rem;
+}
+
+.comic-tags__name a {
+  color: var(--black-700);
+  text-decoration: none;
+}
+
+.comic-tags__name span {
+  float: right;
+}

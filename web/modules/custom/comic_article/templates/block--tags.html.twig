@@ -1,2 +1,11 @@
-{{ content }}
 
+{% for tag in tags %}
+  {% if tag.amout != 0 %}
+    <div {{ attributes.addClass('comic-tags') }}>
+      <h2 class="comic-tags__name">
+        <a href="{{ tag.url }}">{{ tag.name }}</a>
+        <span>{{ tag.amout }}</span>
+      </h2>
+    </div>
+  {% endif %}
+{% endfor %}
