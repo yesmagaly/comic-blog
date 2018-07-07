@@ -1,0 +1,70 @@
+uuid: 81745144-5763-43d7-a134-3a6f5e4ec226
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.profile.teaser
+    - field.field.profile.blogger.field_full_name
+    - field.field.profile.blogger.field_photo
+    - field.field.profile.blogger.field_profession
+    - field.field.profile.blogger.field_signature
+    - field.field.profile.blogger.field_social_media
+    - field.field.profile.blogger.field_summary
+    - profile.type.blogger
+  module:
+    - image
+    - social_media
+id: profile.blogger.teaser
+targetEntityType: profile
+bundle: blogger
+mode: teaser
+content:
+  field_full_name:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_photo:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_profession:
+    type: string
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_signature:
+    type: image
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  field_social_media:
+    type: social_media_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_summary:
+    type: basic_string
+    weight: 4
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
