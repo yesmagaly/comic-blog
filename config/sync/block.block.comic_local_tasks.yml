@@ -1,6 +1,6 @@
 uuid: cb5ac50a-bc9e-43ca-9e9a-6d72bb2ff01b
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - comic
