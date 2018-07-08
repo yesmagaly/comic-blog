@@ -43,3 +43,13 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+
+/* Primary menu region */
+.region__primary_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem auto;
+  width: 1200px;
+}

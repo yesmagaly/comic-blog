@@ -1,0 +1,15 @@
+.menu--main {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item--main {
+  padding: 1rem 1.5rem;
+}
+
+.menu__item--main a {
+  color: var(--black-700);
+  text-decoration: none;
+}

@@ -1,6 +1,5 @@
 .block {
   padding: 0 1.5rem 2rem 1.5rem;
-  margin-bottom: 3rem;
 }
 
 .block .block {
@@ -11,6 +10,7 @@
 .block--profile-block,
 .block--latest-blogs-block, .block--tags-block {
   background-color: var(--black-200);
+  margin-bottom: 3rem;
 }
 
 .block--social-sharing-block {
@@ -25,4 +25,12 @@
   padding: 19px 0;
   text-align: center;
   margin: 0 0 2rem 0;
+}
+
+.block--system-branding-block {
+  padding: 0;
+}
+
+.block--facebook-comments .block__title {
+  background-color: white;
 }
